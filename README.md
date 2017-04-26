@@ -22,7 +22,7 @@ crawler(
 ## config
 
 ```plain
-crawler(requestConfig, {
+crawler(requestOptions, {
   proxies?: String[],
   requestRetryStrategy?: function,
   retryLog?: function,
