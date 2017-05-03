@@ -3,11 +3,21 @@
   "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --fix lib/ index.js"
+  },
   "dependencies": {
     "bluebird": "^3.5.0",
-    "iconv-lite": "^0.4.16",
+    "iconv-lite": "^0.4.17",
     "request": "^2.81.0",
     "retry": "^0.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
   },
   "repository": "https://github.com/shang-package/website-crawler.git",
   "author": "xinshangshangxin <xinshangshangxin@gmail.com>"
