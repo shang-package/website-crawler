@@ -28,5 +28,7 @@ crawler(requestOptions, {
   retryLog?: function,
   retries?: Number,
   disableEncodingCheck?: Boolean,
+  resolveWithFullResponse?: Boolean,
+  disableTransformRequestOptions?: Boolean,
 })
 ```
