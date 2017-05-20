@@ -1,10 +1,11 @@
 {
   "name": "website-crawler",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --fix lib/ index.js"
+    "lint": "./node_modules/.bin/eslint --fix lib/ index.js",
+    "test": "ava -v test/"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
@@ -13,6 +14,7 @@
     "retry": "^0.10.1"
   },
   "devDependencies": {
+    "ava": "^0.19.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
